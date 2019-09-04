@@ -1,17 +1,18 @@
 import React, { Component } from 'react';
 import './NavBar.css'
+import { Link } from 'gatsby';
 
 class NavBar extends Component {
     render(){
         return(
             <div>
                 <nav className="navbar">
-                   <li><a className="about" href="/about"> Acerca de mí </a></li>
-                   <li><a className="residencias" href="/residencias"> Residencias </a></li>
-                   <li><a className="investigacion" href="/investigacion"> Investigación</a></li> 
-                   <li><a className="tecnica" href="/trabajo-tecnico"> Técnica </a></li> 
-                   <li><a className="produccion" href="/produccion"> Producción </a></li> 
-                   <li><a className="livecoding" href="/livecoding"> Live Coding </a></li> 
+                   <li><Link className="about" href="/about"> Acerca de mí </Link></li>
+                   <li><Link className="residencias" href="/residencias"> Residencias </Link></li>
+                   <li><Link className="investigacion" href="/investigacion"> Investigación</Link></li> 
+                   <li><Link className="tecnica" href="/trabajo-tecnico"> Técnica </Link></li> 
+                   <li><Link className="produccion" href="/produccion"> Producción </Link></li> 
+                   <li><Link className="livecoding" href="/livecoding"> Live Coding </Link></li> 
                 </nav>
             </div>
         );
