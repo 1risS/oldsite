@@ -66,10 +66,10 @@
 /* Header */
 
 	#header {
-		background-image: url('../../images/bg.jpg');
+		background-color: black;
 		background-repeat: no-repeat;
 		background-size: cover;
-		-ms-behavior: url('assets/js/ie/backgroundsize.min.htc');
+		-ms-behavior: black;
 
 		h1 {
 			color: _palette(accent2, fg-bold);
