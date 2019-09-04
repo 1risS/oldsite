@@ -1,16 +1,14 @@
 import React from 'react'
 import NavBar from './NavBar'
 import Footer from './Footer'
-import avatar from '../assets/images/avatar.jpg'
+import P5Wrapper from 'react-p5-wrapper';
+import sketch from './sketch'
 
 class Header extends React.Component {
     render() {
         return (
             <header id="header">
-                <div className="inner">
-                    {/* <a href="#" className="image avatar"><img src={avatar} alt="" /></a> */}
-                    <h1><strong>irisS</strong></h1>
-                </div>
+                <P5Wrapper sketch={sketch} />
                 <NavBar />
                 <Footer />
             </header>
