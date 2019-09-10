@@ -48,9 +48,9 @@ class HomeIndex extends React.Component {
                         <header className="major">
                             <h2>Soy programadora de sonido y productora.</h2>
                         </header>
-                        <p>Me formé principalmente en <a href="http://www.untref.edu.ar/carrera/musica">música</a> y <a href="http://www.untref.edu.ar/carrera/artes-electronicas">artes electrónicas</a>. Mi interés me llevó a estudiar contrabajo pero al acercarme a la <span className="remark">música contemporánea </span>y, dentro de ella, a la electroacústica pude incorporar conocimientos alrededor del <span className="remark">sonido</span> en tanto fenómeno físico y su tratamiento con medios tecnológicos.</p>
-                        <p>Conocí la <span className="remark">síntesis analógica</span> gracias a las clases magistrales de <a href="http://djmagla.com/ernesto-romeo-tengo-una-sensacion-de-total-gratitud-por-lo-que-significa-el-arte-y-la-musica-en-mi-vida/">Ernesto Romeo</a>, basamento que me permitiría más tarde comprender la <span className="remark">síntesis digital</span> en las clases de <a href="http://cargocollective.com/hernan/Bio">Hernán Kerlleñevich</a> y <a href="http://menesavasta.com.ar/">Mene Savasta Alsina</a> primero y, luego, de <a href="https://una.edu.ar/docentes/samaruga-lucas-_1246">Lucas Samaruga</a>.</p>
-                        <p>Soy parte del <a href="https://clic-gba-caba.gitlab.io/">nodo GBA-CABA </a> de <span className="remark">CLiC, Colectivo de Live Coders</span>, donde opero como artista, investigadora y productora, aunque también aporto en el <a href="https://colectivo-de-livecoders.gitlab.io/#que-somos">nodo La Plata</a>.</p>
+                        <p>Me formé principalmente en <a href="http://www.untref.edu.ar/carrera/musica" target="blank">música</a> y <a href="http://www.untref.edu.ar/carrera/artes-electronicas"target="blank">artes electrónicas</a>. Mi interés me llevó a estudiar contrabajo pero al acercarme a la <span className="remark">música contemporánea </span>y, dentro de ella, a la electroacústica pude incorporar conocimientos alrededor del <span className="remark">sonido</span> en tanto fenómeno físico y su tratamiento con medios tecnológicos.</p>
+                        <p>Conocí la <span className="remark">síntesis analógica</span> gracias a las clases magistrales de <a href="http://djmagla.com/ernesto-romeo-tengo-una-sensacion-de-total-gratitud-por-lo-que-significa-el-arte-y-la-musica-en-mi-vida/" target="blank">Ernesto Romeo</a>, basamento que me permitiría más tarde comprender la <span className="remark">síntesis digital</span> en las clases de <a href="http://cargocollective.com/hernan/Bio" target="blank">Hernán Kerlleñevich</a> y <a href="http://menesavasta.com.ar/" target="blank">Mene Savasta Alsina</a> primero y, luego, de <a href="https://una.edu.ar/docentes/samaruga-lucas-_1246" target="blank">Lucas Samaruga</a>.</p>
+                        <p>Soy parte del <a href="https://clic-gba-caba.gitlab.io/" target="blank">nodo GBA-CABA </a> de <span className="remark">CLiC (Colectivo de Live Coders)</span> donde opero como artista, investigadora y productora, aunque también aporto en el <a href="https://colectivo-de-livecoders.gitlab.io/#que-somos" target="blank">nodo La Plata</a>.</p>
                     </section>
 
       
@@ -64,11 +64,11 @@ class HomeIndex extends React.Component {
                                     <h2>Contacto</h2>
                                      <li>
                                         <h3 className="icon fa-telegram"><span className="label">Telegram</span></h3>
-                                        <a href="#">@irisR</a>
+                                        <a href="https://t.me/irisR">@irisR</a>
                                     </li>
                                     <li>
                                         <h3 className="icon fa-envelope-o"><span className="label">Email</span></h3>
-                                        <a href="#">iris.r.saladino@gmail.com</a>
+                                        <a href="mail:iris.r.saladino@gmail.com">iris.r.saladino@gmail.com</a>
                                     </li>
                                     {/* <li>
                                         <h3 className="icon fa-instagram"><span className="label">Instagram</span></h3>
