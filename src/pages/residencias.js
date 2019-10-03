@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
-import Layout from '../components/layout'
-import './residencias.css'
 import Gallery from '../components/Gallery'
+import Layout from '../components/layout'
+
+import './residencias.css'
 
 import caso01 from '../assets/images/caso/Caso1.jpg'
 import caso02 from '../assets/images/caso/Caso2.jpg'
 import caso03 from '../assets/images/caso/Caso3.jpg'
-
 import caso01thumb from '../assets/images/caso/_thumbs/Caso1.jpg'
 import caso02thumb from '../assets/images/caso/_thumbs/Caso2.jpg'
 import caso03thumb from '../assets/images/caso/_thumbs/Caso3.jpg'
