@@ -1,6 +1,27 @@
 import React, {Component} from 'react';
-import './residencias.css'
+import Gallery from '../components/Gallery'
 import Layout from '../components/layout'
+
+import './residencias.css'
+
+import crescer01 from '../assets/images/crescer/crescer0.jpg'
+import crescer02 from '../assets/images/crescer/crescer1.jpg'
+
+import crescer01thumb from '../assets/images/crescer/_thumbs/crescer0.jpg'
+import crescer02thumb from '../assets/images/crescer/_thumbs/crescer1.jpg'
+
+const CRESCER_IMAGES = [
+  {
+    id: '1',
+    source: crescer01,
+    thumbnail: crescer01thumb,
+  },
+  {
+    id: '2',
+    source: crescer02,
+    thumbnail: crescer02thumb,
+  }
+]
 
 class Workshops extends Component{
     render(){
@@ -12,6 +33,7 @@ class Workshops extends Component{
                     </header>
                     <p>En 2016, 2017 y 2018 viajé por diferentes provincias del país contratada por <a target="blank" href="http://www.institutocrescer.org.br/"> Instituto Crescer</a>, que implementa proyectos tecnológicos educativos en Argentina.</p>
                     <p>Con el equipo docente, enseñamos a programar en <a target="blank" href="https://scratch.mit.edu/">Scratch</a>, luego aplicamos ese conocimiento con <a target="blank" href="https://appinventor.mit.edu/">App Inventor</a> y finalmente con un kit de robótica basado en <a target="blank" href="https://www.arduino.cc/">Arduino</a>.</p>
+                    <Gallery images={CRESCER_IMAGES} />
                      <header className="major">
                         <h2 >Introducción a la luthería digital (UTec)</h2>
                     </header>
