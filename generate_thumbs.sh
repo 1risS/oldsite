@@ -1,7 +1,6 @@
 #!/bin/bash
-
-dir=$1
-
-mkdir -p $dir/_thumbs
-cp -a $dir/*.{jpg,JPG,png,PNG} $dir/_thumbs/ 2>/dev/null
-mogrify -resize 370x $dir/_thumbs/*
+for imgdir in src/assets/images/*; do
+  mkdir -p $imgdir/_thumbs
+  cp -a $imgdir/*.{jpg,png} $imgdir/_thumbs/ 2>/dev/null
+  mogrify -resize 370x $imgdir/_thumbs/*
+done
