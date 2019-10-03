@@ -12,6 +12,8 @@ import fauno05 from '../assets/images/fauno/faunoComposicion2.jpg'
 import fauno06 from '../assets/images/fauno/faunoComposicion.jpg'
 import fauno07 from '../assets/images/fauno/faunoConsola1.jpg'
 import fauno08 from '../assets/images/fauno/faunoConsola.jpg'
+import fauno09 from '../assets/images/fauno/faunoMardel.jpg'
+import fauno10 from '../assets/images/fauno/faunoCarlCraig.jpg'
 
 import fauno01thumb from '../assets/images/fauno/_thumbs/fauno4.jpg'
 import fauno02thumb from '../assets/images/fauno/_thumbs/faunoCCK1.jpg'
@@ -21,6 +23,8 @@ import fauno05thumb from '../assets/images/fauno/_thumbs/faunoComposicion2.jpg'
 import fauno06thumb from '../assets/images/fauno/_thumbs/faunoComposicion.jpg'
 import fauno07thumb from '../assets/images/fauno/_thumbs/faunoConsola1.jpg'
 import fauno08thumb from '../assets/images/fauno/_thumbs/faunoConsola.jpg'
+import fauno09thumb from '../assets/images/fauno/_thumbs/faunoMardel.jpg'
+import fauno10thumb from '../assets/images/fauno/_thumbs/faunoCarlCraig.jpg'
 
 import atom01 from '../assets/images/atom/atom.jpg'
 import atom02 from '../assets/images/atom/atom1.jpg'
@@ -37,6 +41,8 @@ const FAUNO_IMAGES = [
   { id: '6', source: fauno06, thumbnail: fauno06thumb },
   { id: '7', source: fauno07, thumbnail: fauno07thumb },
   { id: '8', source: fauno08, thumbnail: fauno08thumb },
+  { id: '9', source: fauno09, thumbnail: fauno09thumb },
+  { id: '10', source: fauno10, thumbnail: fauno10thumb },
 ]
 
 const ATOM_IMAGES = [

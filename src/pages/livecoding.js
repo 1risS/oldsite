@@ -10,12 +10,29 @@ import amplify01thumb from '../assets/images/misc/_thumbs/AmplifyNull.jpg'
 import lipm01 from '../assets/images/misc/lipm1.jpg'
 import lipm01thumb from '../assets/images/misc/_thumbs/lipm1.jpg'
 
+import remote01 from '../assets/images/misc/livecodingCollab.jpg'
+import remote01thumb from '../assets/images/misc/_thumbs/livecodingCollab.jpg'
+
+import jack01 from '../assets/images/jack/Jack1.jpg'
+import jack02 from '../assets/images/jack/Jack11.jpg'
+import jack01thumb from '../assets/images/jack/_thumbs/Jack1.jpg'
+import jack02thumb from '../assets/images/jack/_thumbs/Jack11.jpg'
+
 const AMPLIFY_IMAGES = [
   { id: '1', source: amplify01, thumbnail: amplify01thumb },
 ]
 
 const LIPM_IMAGES = [
   { id: '1', source: lipm01, thumbnail: lipm01thumb },
+]
+
+const REMOTE_IMAGES = [
+  { id: '1', source: remote01, thumbnail: remote01thumb },
+]
+
+const JACK_IMAGES = [
+  { id: '1', source: jack01, thumbnail: jack01thumb },
+  { id: '2', source: jack02, thumbnail: jack02thumb },
 ]
 
 class Livecoding extends Component {
@@ -66,6 +83,7 @@ class Livecoding extends Component {
                     <a target="blank" href="https://www.jackadlermckean.eu"> Jack Adler McKean</a>. </p>
                     <p>Me encargué de <span className="remark">producir</span> la fecha. Tocamos junto a Leandro Yako y <a target="blank" href=" https://twitter.com/munshkr "> Damián Silvani</a>. Presentamos un <span className="remark">sistema de partitura dinámica</span> que nos permitió escribir desde <span className="remark">SuperCollider</span> las 
                     particellas para Jack, además de escribir allí código para <span className="remark">expandir sonoramente la señal entrante de tuba</span>.</p>
+                    <Gallery images={JACK_IMAGES} />
                     <header className="major">
                         <h2>TedX Rosario</h2>
                     </header>
@@ -75,6 +93,7 @@ class Livecoding extends Component {
                         <h2>Cadaver exquisito en vivo (México-Argentina)</h2>
                     </header>
                     <p>Dentro de diferentes iniciativas para tocar remotamente, elaboramos con <a target="blank" href="https://www.instagram.com/rexmalebka/?hl=en">rexmalebka</a> la <a target="blank" href="https://www.youtube.com/watch?v=yjgf-SblV4E&t=195s">siguiente dinámica</a>: en un editor de texto plano colaborativo compartimos líneas de código en <span className="remark"> Tidal</span> que ejecutábamos en nuestras computadoras. Rex estaba tocando en vivo, de manera que contaba con un público que además de oír lo que escribíamos, veía nuestra <span className="remark">interacción en tiempo real </span>en el pad.</p>
+                    <Gallery images={REMOTE_IMAGES} />
                 </div>
             </Layout>
         )
