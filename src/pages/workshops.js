@@ -10,6 +10,12 @@ import crescer02 from '../assets/images/crescer/crescer1.jpg'
 import crescer01thumb from '../assets/images/crescer/_thumbs/crescer0.jpg'
 import crescer02thumb from '../assets/images/crescer/_thumbs/crescer1.jpg'
 
+import utec01 from '../assets/images/utec/utec1.jpg'
+import utec02 from '../assets/images/utec/utec2.jpg'
+
+import utec01thumb from '../assets/images/utec/_thumbs/utec1.jpg'
+import utec02thumb from '../assets/images/utec/_thumbs/utec2.jpg'
+
 const CRESCER_IMAGES = [
   {
     id: '1',
@@ -20,6 +26,19 @@ const CRESCER_IMAGES = [
     id: '2',
     source: crescer02,
     thumbnail: crescer02thumb,
+  }
+]
+
+const UTEC_IMAGES = [
+  {
+    id: '1',
+    source: utec01,
+    thumbnail: utec01thumb,
+  },
+  {
+    id: '2',
+    source: utec02,
+    thumbnail: utec02thumb,
   }
 ]
 
@@ -39,7 +58,7 @@ class Workshops extends Component{
                     </header>
                     <p>En 2018 participé de la <a target="blank" href="http://duraznoconf.uy/2018/"> Durazno Conf</a>, en las instalaciones de la <a target="blank" href="https://utec.edu.uy/">Universidad Tecnológica de Uruguay</a>.</p>
                     <p>Enseñé a hacer un <span className="remark">sequencer de 16 pasos</span> con <span className="remark">pure data</span>. Compartí esas jornadas con <a target="blank" href="http://www.unrinteractiva.com.ar/team/mg-fernando-irigaray/">Fernando Irigaray</a>, <a target="blank" href="https://www.linkedin.com/in/msarsale/">Martín Sarsale</a>, <a target="blank" href="https://www.linkedin.com/in/kosamari/"> Mariko Kosaka</a>, <a target="blank" href="http://www.erlang-factory.com/conference/SFBayAreaErlangFactory2009/speakers/BobIppolito">Bob Ipolito</a> y <a target="blank" href="https://aymarasamudio.com/">Aymará Samudio</a>, entre otres.</p>
-                
+                    <Gallery images={UTEC_IMAGES} />
                     <header className="major">
                         <h2 >Nardoz (BONS)</h2>
                     </header>
