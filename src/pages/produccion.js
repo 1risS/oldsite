@@ -1,6 +1,15 @@
 import React, {Component} from 'react';
-import './residencias.css'
+import Gallery from '../components/Gallery'
 import Layout from '../components/layout'
+
+import './residencias.css'
+
+import arcade01 from '../assets/images/misc/arcade0.jpg'
+import arcade01thumb from '../assets/images/misc/_thumbs/arcade0.jpg'
+
+const ARCADE_IMAGES = [
+  { id: '1', source: arcade01, thumbnail: arcade01thumb },
+]
 
 class Produccion extends Component{
     render(){
@@ -20,6 +29,7 @@ class Produccion extends Component{
                     <p>En el line up de música contamos con <a target="blank" href="https://www.facebook.com/BuenosAiresOutrun/">Buenos Aires Outrun</a>, <a target="blank" href="https://www.facebook.com/Vaporwave.Argentina/"> Vaporwave argentina</a>, livecoding, sintes analógicos de <a target="blank" href="https://www.youtube.com/watch?v=27PLlTzNgyw"> Klauss</a>, 
                     <a target="blank" href="youtube.com/watch?v=pwaaMUZqqT4"> Shis Unusual</a>, <a target="blank" href="https://www.youtube.com/watch?v=nRFKYI_AeiU"> Ariel Raguet</a>, <a target="blank" href="https://veroniqueenelespacio.bandcamp.com/"> Veronique</a>, <a target="blank" href="https://www.vice.com/es_latam/article/pg5xvz/uctumi-sid-reversiono-en-8-bits-temas-del-cancionero-popular-argentino"> Uctumi Sid</a>, 
                     <a target="blank" href="https://krydotexe.bandcamp.com/"> Kry.exe</a>, <a target="blank" href="http://lospatmoritas.com/"> Los Pat Moritas</a>, <a target="blank" href="https://tonileys.bandcamp.com/"> Toni Leys</a>, entre otres.</p>
+                    <Gallery images={ARCADE_IMAGES} />
                     <header className="major">
                         <h2 >Festival de Arte Digital PlusCode</h2>
                     </header>
