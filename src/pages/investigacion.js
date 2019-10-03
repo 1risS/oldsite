@@ -8,11 +8,7 @@ import arom01 from '../assets/images/aromatorio/Aromatorio.jpg'
 import arom01thumb from '../assets/images/aromatorio/_thumbs/Aromatorio.jpg'
 
 const AROMATORIO_IMAGES = [
-  {
-    id: '1',
-    source: arom01,
-    thumbnail: arom01thumb,
-  },
+  { id: '1', source: arom01, thumbnail: arom01thumb },
 ]
 
 class Investigacion extends Component {

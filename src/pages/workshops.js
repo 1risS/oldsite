@@ -17,29 +17,13 @@ import utec01thumb from '../assets/images/utec/_thumbs/utec1.jpg'
 import utec02thumb from '../assets/images/utec/_thumbs/utec2.jpg'
 
 const CRESCER_IMAGES = [
-  {
-    id: '1',
-    source: crescer01,
-    thumbnail: crescer01thumb,
-  },
-  {
-    id: '2',
-    source: crescer02,
-    thumbnail: crescer02thumb,
-  }
+  { id: '1', source: crescer01, thumbnail: crescer01thumb },
+  { id: '2', source: crescer02, thumbnail: crescer02thumb }
 ]
 
 const UTEC_IMAGES = [
-  {
-    id: '1',
-    source: utec01,
-    thumbnail: utec01thumb,
-  },
-  {
-    id: '2',
-    source: utec02,
-    thumbnail: utec02thumb,
-  }
+  { id: '1', source: utec01, thumbnail: utec01thumb },
+  { id: '2', source: utec02, thumbnail: utec02thumb }
 ]
 
 class Workshops extends Component{

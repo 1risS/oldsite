@@ -16,31 +16,11 @@ import caso04thumb from '../assets/images/caso/_thumbs/caso6.jpg'
 import caso05thumb from '../assets/images/caso/_thumbs/caso7.jpg'
 
 const CASO_IMAGES = [
-  {
-    id: '1',
-    source: caso01,
-    thumbnail: caso01thumb,
-  },
-  {
-    id: '2',
-    source: caso02,
-    thumbnail: caso02thumb,
-  },
-  {
-    id: '3',
-    source: caso03,
-    thumbnail: caso03thumb,
-  },
-  {
-    id: '4',
-    source: caso04,
-    thumbnail: caso04thumb,
-  },
-  {
-    id: '5',
-    source: caso05,
-    thumbnail: caso05thumb,
-  },
+  { id: '1', source: caso01, thumbnail: caso01thumb },
+  { id: '2', source: caso02, thumbnail: caso02thumb },
+  { id: '3', source: caso03, thumbnail: caso03thumb },
+  { id: '4', source: caso04, thumbnail: caso04thumb },
+  { id: '5', source: caso05, thumbnail: caso05thumb },
 ]
 
 class Residencias extends Component {

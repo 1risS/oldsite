@@ -29,59 +29,19 @@ import atom01thumb from '../assets/images/atom/_thumbs/atom.jpg'
 import atom02thumb from '../assets/images/atom/_thumbs/atom1.jpg'
 
 const FAUNO_IMAGES = [
-  {
-    id: '1',
-    source: fauno01,
-    thumbnail: fauno01thumb,
-  },
-  {
-    id: '2',
-    source: fauno02,
-    thumbnail: fauno02thumb,
-  },
-  {
-    id: '3',
-    source: fauno03,
-    thumbnail: fauno03thumb,
-  },
-  {
-    id: '4',
-    source: fauno04,
-    thumbnail: fauno04thumb,
-  },
-  {
-    id: '5',
-    source: fauno05,
-    thumbnail: fauno05thumb,
-  },
-  {
-    id: '6',
-    source: fauno06,
-    thumbnail: fauno06thumb,
-  },
-  {
-    id: '7',
-    source: fauno07,
-    thumbnail: fauno07thumb,
-  },
-  {
-    id: '8',
-    source: fauno08,
-    thumbnail: fauno08thumb,
-  },
+  { id: '1', source: fauno01, thumbnail: fauno01thumb },
+  { id: '2', source: fauno02, thumbnail: fauno02thumb },
+  { id: '3', source: fauno03, thumbnail: fauno03thumb },
+  { id: '4', source: fauno04, thumbnail: fauno04thumb },
+  { id: '5', source: fauno05, thumbnail: fauno05thumb },
+  { id: '6', source: fauno06, thumbnail: fauno06thumb },
+  { id: '7', source: fauno07, thumbnail: fauno07thumb },
+  { id: '8', source: fauno08, thumbnail: fauno08thumb },
 ]
 
 const ATOM_IMAGES = [
-  {
-    id: '1',
-    source: atom01,
-    thumbnail: atom01thumb,
-  },
-  {
-    id: '2',
-    source: atom02,
-    thumbnail: atom02thumb,
-  },
+  { id: '1', source: atom01, thumbnail: atom01thumb },
+  { id: '2', source: atom02, thumbnail: atom02thumb },
 ]
 
 class Tecnica extends Component {

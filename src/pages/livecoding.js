@@ -11,19 +11,11 @@ import lipm01 from '../assets/images/misc/lipm1.jpg'
 import lipm01thumb from '../assets/images/misc/_thumbs/lipm1.jpg'
 
 const AMPLIFY_IMAGES = [
-  {
-    id: '1',
-    source: amplify01,
-    thumbnail: amplify01thumb,
-  },
+  { id: '1', source: amplify01, thumbnail: amplify01thumb },
 ]
 
 const LIPM_IMAGES = [
-  {
-    id: '1',
-    source: lipm01,
-    thumbnail: lipm01thumb,
-  },
+  { id: '1', source: lipm01, thumbnail: lipm01thumb },
 ]
 
 class Livecoding extends Component {
