@@ -7,9 +7,13 @@ import './residencias.css'
 import caso01 from '../assets/images/caso/Caso1.jpg'
 import caso02 from '../assets/images/caso/Caso2.jpg'
 import caso03 from '../assets/images/caso/Caso3.jpg'
+import caso04 from '../assets/images/caso/caso6.jpg'
+import caso05 from '../assets/images/caso/caso7.jpg'
 import caso01thumb from '../assets/images/caso/_thumbs/Caso1.jpg'
 import caso02thumb from '../assets/images/caso/_thumbs/Caso2.jpg'
 import caso03thumb from '../assets/images/caso/_thumbs/Caso3.jpg'
+import caso04thumb from '../assets/images/caso/_thumbs/caso6.jpg'
+import caso05thumb from '../assets/images/caso/_thumbs/caso7.jpg'
 
 const CASO_IMAGES = [
   {
@@ -26,6 +30,16 @@ const CASO_IMAGES = [
     id: '3',
     source: caso03,
     thumbnail: caso03thumb,
+  },
+  {
+    id: '4',
+    source: caso04,
+    thumbnail: caso04thumb,
+  },
+  {
+    id: '5',
+    source: caso05,
+    thumbnail: caso05thumb,
   },
 ]
 
