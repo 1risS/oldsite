@@ -1,6 +1,30 @@
 import React, {Component} from 'react';
-import './residencias.css'
+import Gallery from '../components/Gallery'
 import Layout from '../components/layout'
+
+import './residencias.css'
+
+import amplify01 from '../assets/images/misc/AmplifyNull.jpg'
+import amplify01thumb from '../assets/images/misc/_thumbs/AmplifyNull.jpg'
+
+import lipm01 from '../assets/images/misc/lipm1.jpg'
+import lipm01thumb from '../assets/images/misc/_thumbs/lipm1.jpg'
+
+const AMPLIFY_IMAGES = [
+  {
+    id: '1',
+    source: amplify01,
+    thumbnail: amplify01thumb,
+  },
+]
+
+const LIPM_IMAGES = [
+  {
+    id: '1',
+    source: lipm01,
+    thumbnail: lipm01thumb,
+  },
+]
 
 class Livecoding extends Component {
     render(){
@@ -12,11 +36,13 @@ class Livecoding extends Component {
                         <h2>Amplify (Mutek)</h2>
                     </header>
                     <p>En Abril de 2019 armamos un conjunto con las live coders del <a target="blank" href="https://colectivo-de-livecoders.gitlab.io/#que-somos">nodo La Plata</a> para tocar como teloneras de <a target="blank" href="https://joannnne.github.io/"> Joanne Armitage</a> en el <a target="blank" href="https://www.buenosaires.gob.ar/museos/museo-sivori"> Museo Sívori </a> para el <span className="remark">Nano-Mutek</span>. </p>
+                    <Gallery images={AMPLIFY_IMAGES} />
                     <header className="major">
                         <h2>L.I.P.M. (Centro Cultural Recoleta)</h2>
                     </header>
                     <p>La primera fecha que realizada en el Laboratorio de Investigación en Producción Musical, ubicado en el <a target="blank" href="http://www.centroculturalrecoleta.org"> Centro Cultural Recoleta</a>, contó con la presencia de <a href="https://ahc.leeds.ac.uk/media/staff/174/dr-joanne-armitage" target="blank"> Joanne Armitage </a> y <a href="https://marianneteixido.github.io/" target="blank"> Marianne Teixido</a>, figuras femeninas de importancia en la escena del livecoding mundial. Participé como <span classname="remark">coder</span> en un script colaborativo y además <span className="remark">produje</span> la fecha.</p>
                     <p>La segunda fecha tocamos de manera individual algunes livecoders. Yo presenté un script que contemplaba el control de un reproductor de video mediante un puente programado en Python. Usé un video de YouTube de <a href="https://www.youtube.com/watch?v=YbkIcLHB3r4" target="blank"> Nico Melo</a> con un arreglo vocal de una vidala de Atahualpa Yupanqui. Este fue el comienzo de mi trabajo con redes sociales y la colaboración entre humanos desconocidos. También <span className="remark">produje esta fecha además de tocar</span>. </p>
+                    <Gallery images={LIPM_IMAGES} />
                     <header className="major">
                         <h2>Rolf Art</h2>
                     </header>
