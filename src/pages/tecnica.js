@@ -96,25 +96,25 @@ class Tecnica extends Component {
             width="400"
             height="228"
             src="https://www.youtube.com/embed/tawwrN6CMW0"
-            frameborder="0"
+            frameBorder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
+            allowFullScreen
           ></iframe>
           <iframe
             width="400"
             height="228"
             src="https://www.youtube.com/embed/1CE92VoUwrA"
-            frameborder="0"
+            frameBorder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
+            allowFullScreen
           ></iframe>
           <iframe
             width="400"
             height="228"
             src="https://www.youtube.com/embed/LwsMPZKWTB4"
-            frameborder="0"
+            frameBorder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
+            allowFullScreen
           ></iframe>
           <header className="major">
             <h2>Atom - Arte Sonoro e Intermedia</h2>
@@ -163,25 +163,25 @@ class Tecnica extends Component {
             width="400"
             height="228"
             src="https://www.youtube.com/embed/NUIHmk8-qfI"
-            frameborder="0"
+            frameBorder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
+            allowFullScreen
           ></iframe>
           <iframe
             width="400"
             height="228"
             src="https://www.youtube.com/embed/w1Q8x_bYEvs"
-            frameborder="0"
+            frameBorder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
+            allowFullScreen
           ></iframe>
           <iframe
             width="400"
             height="228"
             src="https://www.youtube.com/embed/H3kqNRsDVTQ"
-            frameborder="0"
+            frameBorder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
+            allowFullScreen
           ></iframe>
           <header className="major">
             <h2>Centro Cultural de la Cooperación</h2>

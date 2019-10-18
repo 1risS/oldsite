@@ -88,7 +88,7 @@ class Livecoding extends Component {
               Marianne Teixido
             </a>
             , figuras femeninas de importancia en la escena del livecoding
-            mundial. Participé como <span classname="remark">coder</span> en un
+            mundial. Participé como <span className="remark">coder</span> en un
             script colaborativo y además <span className="remark">produje</span>{' '}
             la fecha.
           </p>
@@ -116,9 +116,9 @@ class Livecoding extends Component {
             width="400"
             height="228"
             src="https://www.youtube.com/embed/xl8fCUMyeVI"
-            frameborder="0"
+            frameBorder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
+            allowFullScreen
           ></iframe>
           <header className="major">
             <h2>Rolf Art</h2>
@@ -211,9 +211,9 @@ class Livecoding extends Component {
             width="400"
             height="228"
             src="https://www.youtube.com/embed/h5rZwS680OM"
-            frameborder="0"
+            frameBorder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
+            allowFullScreen
           ></iframe>
           <header className="major">
             <h2>FLISol C.A.B.A. (Centro Cultural San Martín)</h2>
@@ -264,9 +264,9 @@ class Livecoding extends Component {
             width="400"
             height="228"
             src="https://www.youtube.com/embed/XiulvCMOX_k"
-            frameborder="0"
+            frameBorder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
+            allowFullScreen
           ></iframe>
           <header className="major">
             <h2>Avalancha (Club Cultural Matienzo)</h2>
@@ -299,9 +299,9 @@ class Livecoding extends Component {
             width="400"
             height="228"
             src="https://www.youtube.com/embed/64Rw43Ei5cA"
-            frameborder="0"
+            frameBorder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
+            allowFullScreen
           ></iframe>
           <header className="major">
             <h2>Centro Cultural General San Martín</h2>
@@ -374,9 +374,9 @@ class Livecoding extends Component {
             width="400"
             height="228"
             src="https://www.youtube.com/embed/yjgf-SblV4E"
-            frameborder="0"
+            frameBorder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
+            allowFullScreen
           ></iframe>
         </div>
       </Layout>

@@ -66,9 +66,9 @@ class Residencias extends Component {
             width="400"
             height="228"
             src="https://www.youtube.com/embed/lwH1xDoG8T0"
-            frameborder="0"
+            frameBorder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
+            allowFullScreen
           ></iframe>
           <header className="major">
             <h2>GRAME en la UNSaM</h2>
@@ -126,9 +126,9 @@ class Residencias extends Component {
             width="500"
             height="285"
             src="https://www.youtube.com/embed/SoYPPBrMslU"
-            frameborder="0"
+            frameBorder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
+            allowFullScreen
           ></iframe>
         </div>
       </Layout>
