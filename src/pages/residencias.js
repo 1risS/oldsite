@@ -27,7 +27,7 @@ class Residencias extends Component {
   render() {
     return (
       <Layout>
-        <div className="container">
+        <div id="main">
           <header className="major">
             <h2>Investigación en Tecnología aplicada a la Danza (InTAD)</h2>
           </header>
@@ -62,7 +62,14 @@ class Residencias extends Component {
             .{' '}
           </p>
           <Gallery images={CASO_IMAGES} />
-          <iframe width="400" height="228" src="https://www.youtube.com/embed/lwH1xDoG8T0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe
+            width="400"
+            height="228"
+            src="https://www.youtube.com/embed/lwH1xDoG8T0"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
           <header className="major">
             <h2>GRAME en la UNSaM</h2>
           </header>
@@ -115,7 +122,14 @@ class Residencias extends Component {
             </a>
             .
           </p>
-          <iframe width="500" height="285" src="https://www.youtube.com/embed/SoYPPBrMslU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe
+            width="500"
+            height="285"
+            src="https://www.youtube.com/embed/SoYPPBrMslU"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
         </div>
       </Layout>
     )

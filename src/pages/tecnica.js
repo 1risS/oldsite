@@ -54,7 +54,7 @@ class Tecnica extends Component {
   render() {
     return (
       <Layout>
-        <div className="container">
+        <div id="main">
           <header className="major">
             <h2>Estudio Laboratorio La Siesta del Fauno</h2>
           </header>
@@ -92,9 +92,30 @@ class Tecnica extends Component {
             replica en todas las personas que hemos pasado por allí.
           </p>
           <Gallery images={FAUNO_IMAGES} />
-          <iframe width="400" height="228" src="https://www.youtube.com/embed/tawwrN6CMW0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <iframe width="400" height="228" src="https://www.youtube.com/embed/1CE92VoUwrA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <iframe width="400" height="228" src="https://www.youtube.com/embed/LwsMPZKWTB4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe
+            width="400"
+            height="228"
+            src="https://www.youtube.com/embed/tawwrN6CMW0"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            width="400"
+            height="228"
+            src="https://www.youtube.com/embed/1CE92VoUwrA"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            width="400"
+            height="228"
+            src="https://www.youtube.com/embed/LwsMPZKWTB4"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
           <header className="major">
             <h2>Atom - Arte Sonoro e Intermedia</h2>
           </header>
@@ -138,9 +159,30 @@ class Tecnica extends Component {
             , entre otres.{' '}
           </p>
           <Gallery images={ATOM_IMAGES} />
-          <iframe width="400" height="228" src="https://www.youtube.com/embed/NUIHmk8-qfI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <iframe width="400" height="228" src="https://www.youtube.com/embed/w1Q8x_bYEvs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <iframe width="400" height="228" src="https://www.youtube.com/embed/H3kqNRsDVTQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe
+            width="400"
+            height="228"
+            src="https://www.youtube.com/embed/NUIHmk8-qfI"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            width="400"
+            height="228"
+            src="https://www.youtube.com/embed/w1Q8x_bYEvs"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            width="400"
+            height="228"
+            src="https://www.youtube.com/embed/H3kqNRsDVTQ"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
           <header className="major">
             <h2>Centro Cultural de la Cooperación</h2>
           </header>

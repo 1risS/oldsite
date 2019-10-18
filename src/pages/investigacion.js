@@ -7,15 +7,13 @@ import './residencias.css'
 import arom01 from '../assets/images/aromatorio/Aromatorio.jpg'
 import arom01thumb from '../assets/images/aromatorio/_thumbs/Aromatorio.jpg'
 
-const AROMATORIO_IMAGES = [
-  { id: '1', source: arom01, thumbnail: arom01thumb },
-]
+const AROMATORIO_IMAGES = [{ id: '1', source: arom01, thumbnail: arom01thumb }]
 
 class Investigacion extends Component {
   render() {
     return (
       <Layout>
-        <div className="container">
+        <div id="main">
           <header className="major">
             <h2>Aromatorio (UNTreF)</h2>
           </header>
